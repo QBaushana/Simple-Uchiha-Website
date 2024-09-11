@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .Container img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .Navbar {
+    position: absolute;
+    top: 0;
+    right: 9px;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .Navbar nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Navbar nav a:hover {
+    color: red;
+  }
+  
+  .Navbar a {
+    text-decoration: none;
+    color: #fbf9f9;
+    font-size: 16px;
+  }
+
+  .Clan {
+    text-align: center;
+    margin: 100px;
+  }
+
+  .Clan Span {
+    color: red;
+  }
+
+  .Family {
+    margin-top: 100px;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+  }
+  
+  .Footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .Footer-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Footer-Logo img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .Footer-Links {
+    margin-bottom: 10px;
+  }
+  
+  .Footer-Links a {
+    color: #fbf9f9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .Footer-Links a:hover {
+    color: #d32f2f; /* Uchiha red color */
+  }
+  
+  .Footer-Copyright {
+    font-size: 14px;
+    color: #9e9e9e;
+  }
